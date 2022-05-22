@@ -1,0 +1,140 @@
+/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family:  'Quantico', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    height: 300px;
+    background-color: rgb(220,12,12);
+    border-bottom: 8px black solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloPokedex{
+    width: 400px;
+    margin:20px;
+}
+
+.input{
+    width: 300px;
+    height: 28px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border: 8px black solid;
+    border-radius: 25px;
+    color: #32319b;
+}
+
+
+
+
+.gallery{
+    background-color: RGB(255,206,49);
+    width: 100%;
+    height: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: top;
+    
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 8px black solid;
+    border-radius: 25px;
+    height: 300px;
+    width: 180px;
+    margin: 20px;
+    background: #A60000;
+background: -moz-linear-gradient(left, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
+background: -webkit-linear-gradient(left, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
+background: linear-gradient(to right, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
+}
+
+.imagen{
+    width: 150px;
+    height: 130px;
+    background-color: whitesmoke;
+    padding:15px;
+    border-top: 8px solid black;
+    padding-top:30px;
+}
+
+.numberPokemon{
+    font-size:15px;
+    font-weight: 900;
+    margin-top: 50px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: whitesmoke;
+    border: 8px black solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.namePokemon{
+    font-size:25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+
+.cajaDatos{
+    width: 100%;
+    height: 70px;    
+    display: flex;
+    justify-content: center;
+}
+
+.typePokemon{
+    font-size:20px;
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-top: 8px solid black;
+    padding-top: 5px;
+}
+
+
+@media screen and (max-width:425px){
+    .tituloPokedex{
+        width: 70%;
+        margin: 20px;
+    }
+    
+    .input{
+        width: 70%;
+        height: 28px;
+        margin: 10px;
+        padding: 5px;
+        font-size: 15px;
+        border: 8px black solid;
+        border-radius: 25px;
+        color: #32319b;
+    }
+}
