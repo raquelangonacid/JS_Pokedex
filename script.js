@@ -38,7 +38,7 @@ const llamada=async()=>{
                 let urlPokemonJSON= await urlPokemonFetch.json();
                 let finalData=urlPokemonJSON;
                 
-                if (finalData.species.name.includes(myInput$$.value)) {
+                if (finalData.species.name.toLowerCase().includes(myInput$$.value.toLowerCase().trim())) {
     
                     //CREACIÓN ELEMENTOS
                     let myDiv$$ = document.createElement("div");

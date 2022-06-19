@@ -36,7 +36,7 @@ header{
     font-size: 15px;
     border: 8px black solid;
     border-radius: 25px;
-    color: #32319b;
+    color: black;
 }
 
 
@@ -64,9 +64,10 @@ header{
     width: 180px;
     margin: 20px;
     background: #A60000;
-background: -moz-linear-gradient(left, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
-background: -webkit-linear-gradient(left, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
-background: linear-gradient(to right, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
+    background: -moz-linear-gradient(left, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
+    background: -webkit-linear-gradient(left, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
+    background: linear-gradient(to right, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
+
 }
 
 .imagen{
@@ -135,6 +136,6 @@ background: linear-gradient(to right, #A60000 0%, #FF1414 50%, #FA3B3B 100%);
         font-size: 15px;
         border: 8px black solid;
         border-radius: 25px;
-        color: #32319b;
+        color: black;
     }
 }
